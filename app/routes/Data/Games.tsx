@@ -1,15 +1,16 @@
+// ประกาศตัวแปร games เป็น array ของ object แต่ละ object คือข้อมูลเกม
 export const games = [
   {
-    Code: "G001",
-    Name: "Mobile Legends",
-    Cover: "https://cdn.wallpapersafari.com/85/75/GLXYUC.png",
-    Description: "MOBA เกมมือถือยอดนิยม",
-    Category: 1,
-    Producer: "Moonton",
-    Source: "https://www.mobilelegends.com",
-    LaunchDate: "2016-07-11",
-    Pricing: 10,
-    Rating: 5
+    Code: "G001", // รหัสเกม
+    Name: "Mobile Legends", // ชื่อเกม
+    Cover: "https://cdn.wallpapersafari.com/85/75/GLXYUC.png", // URL รูปปกเกม
+    Description: "MOBA เกมมือถือยอดนิยม", // คำอธิบายเกม
+    Category: 1, // หมวดหมู่เกม (1 = MOBA, 2 = RPG/สร้างสรรค์, 3 = Puzzle/อื่นๆ)
+    Producer: "Moonton", // ผู้พัฒนาเกม
+    Source: "https://www.mobilelegends.com", // ลิงก์เว็บไซต์เกม
+    LaunchDate: "2016-07-11", // วันที่เปิดตัว
+    Pricing: 10, // ราคาหรือสถานะเกม (10 = ฟรี, 20 = ต้องจ่าย, อื่นๆ = ระบุราคา $)
+    Rating: 5 // คะแนนรีวิว (1-5)
   },
   {
     Code: "G002",
@@ -119,4 +120,4 @@ export const games = [
     Pricing: 10,
     Rating: 4
   }
-];
+]; // ปิด array games
